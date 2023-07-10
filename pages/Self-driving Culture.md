@@ -1,0 +1,6 @@
+type:: [[concept]]
+author:: [[Daniel Gervais]]
+source:: [Self-driving Culture](https://copyrightblog.kluweriplaw.com/2021/11/25/self-driving-culture/)
+
+	- >Changes in cultural productions and trends both lead and reflect societal changes, which in turn lead to political and, ultimately, legal changes. Literature in all forms, fine arts and music are among the most important vehicles to both mirror and propagate those changes throughout society. If those cultural vehicles are made of art, books and lyrics created by AI machines, then those machines will control at least a part of cultural, societal and political change. Think of it as [self-driving culture]([[Self-driving Culture]]), and it will be a U-turn as far as human evolution is concerned.
+		- >My suggestion is simple. Before we can identify the *risks and valence* of the replacement of human authors, let us not accelerate that replacement by putting behind it the full force of the market. This is what would happen if copyright were interpreted as protecting AI machine productions that have [no human cause](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3857844).
