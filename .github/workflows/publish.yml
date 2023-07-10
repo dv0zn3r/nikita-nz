@@ -1,8 +1,5 @@
 on: [push]
 
-title: nikita.nz
-description: Personal blog about regulation of technology
-
 permissions:
   contents: write
 jobs:
