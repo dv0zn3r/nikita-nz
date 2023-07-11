@@ -1,4 +1,4 @@
 - This is a blog maintained by <a href="https://orcid.org/0000-0003-0969-7724">Dr. Nikita Melashchenko <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" style=display:inline-block width="16" height="16" /></a>, a Postdoctoral Fellow in Law under the <a href="https://www.wgtn.ac.nz/law/centres/nzciel">New Zealand Centre of International Economic Law</a> at <a href="https://www.wgtn.ac.nz">Te Herenga Waka – Victoria University of Wellington <img alt="VUW logo" src="https://s3.amazonaws.com/pro.brandkit.io/accounts/vuw/statics/BrandKit_Icons-01.svg" style=display:inline-block width="16" height="16" /></a>.
-- #### Contacts
+- #### [[Contacts]]
 	- <a rel="me" href="https://mastodon.nz/@n1k1ta">Mastodon</a>
-	-
+	- <a href = "nikita.melashchenko@vuw.ac.nz">Email</a>
