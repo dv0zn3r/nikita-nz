@@ -77,4 +77,4 @@ related:: [Humans as Prompt Engineers](https://copyrightblog.kluweriplaw.com/202
 		- [^13]: Shumailov, I., Shumailov Z., *et al*. "The Curse of Recursion: Training on Generated Data Makes Models Forget" [arXiv:2305.17493](https://arxiv.org/abs/2305.17493) [cs.LG].
 		- [^14]: Dreyfuss, R., & Frankel, S. (2014). "From incentive to commodity to asset: how international law is reconceptualizing intellectual property", 36 *Mich. J. Int'l L.* 557.
 - [[Comments]]
-	-
+	- [[12.07.2023]] Update: Here is one reason why prompt engineering might not
