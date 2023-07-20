@@ -78,3 +78,4 @@ related:: [Humans as Prompt Engineers](https://copyrightblog.kluweriplaw.com/202
 		- [^14]: Dreyfuss, R., & Frankel, S. (2014). "From incentive to commodity to asset: how international law is reconceptualizing intellectual property", 36 *Mich. J. Int'l L.* 557.
 - [[Comments]]
 	- [[12.07.2023]] Here is [one reason](https://github.com/mshumer/gpt-prompt-engineer) why prompt engineering probably is not pertinent to cognitive professions as such. It is evaluation of the output, where we are needed.
+	- [[20.07.2023]] Another reason why we as professionals are still needed.
