@@ -74,7 +74,7 @@ related:: [Humans as Prompt Engineers](https://copyrightblog.kluweriplaw.com/202
 		- [^10]: Chang, E. Y. "Prompting Large Language Models With the Socratic Method" [arXiv:2303.08769](https://arxiv.org/abs/2303.08769) [cs.LG].
 		- [^11]: See *Rentmeester v. Nike*.
 		- [^12]: Stech, M. T. (2023) "Co-Authorship Between Photographers and Portrait Subjects", 25 *Vand. J. Ent. & Tech. L.* 53.
-		- [^13]: Shumailov, I., Shumailov Z., *et al*. "The Curse of Recursion: Training on Generated Data Makes Models Forget" [arXiv:2305.17493](https://arxiv.org/abs/2305.17493) [cs.LG].
+		- [^13]: Shumailov, I., Shumailov Z., *et al*. "The Curse of Recursion: Training on Generated Data Makes Models Forget" [arXiv:2305.17493](https://arxiv.org/abs/2305.17493) [cs.LG]. ([trackback](https://arxiv.org/trackback/{arXiv_id}))
 		- [^14]: Dreyfuss, R., & Frankel, S. (2014). "From incentive to commodity to asset: how international law is reconceptualizing intellectual property", 36 *Mich. J. Int'l L.* 557.
 - [[Comments]]
 	- [[12.07.2023]] Here is [one reason](https://github.com/mshumer/gpt-prompt-engineer) why prompt engineering probably is not pertinent to cognitive professions as such. It is evaluation of the output, where we are needed.
