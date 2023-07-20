@@ -71,10 +71,10 @@ related:: [Humans as Prompt Engineers](https://copyrightblog.kluweriplaw.com/202
 		- [^7]: See, for example, *Apple Computer v Franklin Computer*.
 		- [^8]: Yousefzadeh, R., & Cao, X. "To what extent should we trust AI models when they extrapolate?" [arXiv:2201.11260](https://arxiv.org/abs/2201.11260) [cs.LG].
 		- [^9]: Raghavan, B., & Schneier, B. "Artificial Intelligence Can’t Work Without Our Data" *Politico*. 29 June 2023. [<politico.com>](https://www.politico.com/news/magazine/2023/06/29/ai-pay-americans-data-00103648).
-		- [^10]: Chang, E. Y. "Prompting Large Language Models With the Socratic Method" [arXiv:2303.08769](https://arxiv.org/abs/2303.08769) [cs.LG].
+		- [^10]: Chang, E. Y. "Prompting Large Language Models With the Socratic Method" [arXiv:2303.08769](https://arxiv.org/abs/2303.08769) [cs.LG]. ([trackback](https://arxiv.org/trackback/{2303.08769}))
 		- [^11]: See *Rentmeester v. Nike*.
 		- [^12]: Stech, M. T. (2023) "Co-Authorship Between Photographers and Portrait Subjects", 25 *Vand. J. Ent. & Tech. L.* 53.
-		- [^13]: Shumailov, I., Shumailov Z., *et al*. "The Curse of Recursion: Training on Generated Data Makes Models Forget" [arXiv:2305.17493](https://arxiv.org/abs/2305.17493) [cs.LG]. ([trackback](https://arxiv.org/trackback/{arXiv_id}))
+		- [^13]: Shumailov, I., Shumailov Z., *et al*. "The Curse of Recursion: Training on Generated Data Makes Models Forget" [arXiv:2305.17493](https://arxiv.org/abs/2305.17493) [cs.LG]. ([trackback](https://arxiv.org/trackback/{2305.17493}))
 		- [^14]: Dreyfuss, R., & Frankel, S. (2014). "From incentive to commodity to asset: how international law is reconceptualizing intellectual property", 36 *Mich. J. Int'l L.* 557.
 - [[Comments]]
 	- [[12.07.2023]] Here is [one reason](https://github.com/mshumer/gpt-prompt-engineer) why prompt engineering probably is not pertinent to cognitive professions as such. It is evaluation of the output, where we are needed.
