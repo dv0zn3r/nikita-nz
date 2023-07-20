@@ -69,7 +69,7 @@ related:: [Humans as Prompt Engineers](https://copyrightblog.kluweriplaw.com/202
 		- [^5]: See *Feist Publications v Rural Telephone Service Company*.
 		- [^6]: See *Schrock v Learning Curve International*.
 		- [^7]: See, for example, *Apple Computer v Franklin Computer*.
-		- [^8]: Yousefzadeh, R., & Cao, X. "To what extent should we trust AI models when they extrapolate?" [arXiv:2201.11260](https://arxiv.org/abs/2201.11260) [cs.LG].
+		- [^8]: Yousefzadeh, R., & Cao, X. "To what extent should we trust AI models when they extrapolate?" [arXiv:2201.11260](https://arxiv.org/abs/2201.11260) [cs.LG]. ([trackback](https://arxiv.org/trackback/{2201.11260}))
 		- [^9]: Raghavan, B., & Schneier, B. "Artificial Intelligence Can’t Work Without Our Data" *Politico*. 29 June 2023. [<politico.com>](https://www.politico.com/news/magazine/2023/06/29/ai-pay-americans-data-00103648).
 		- [^10]: Chang, E. Y. "Prompting Large Language Models With the Socratic Method" [arXiv:2303.08769](https://arxiv.org/abs/2303.08769) [cs.LG]. ([trackback](https://arxiv.org/trackback/{2303.08769}))
 		- [^11]: See *Rentmeester v. Nike*.
