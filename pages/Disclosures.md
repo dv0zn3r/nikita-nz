@@ -1,0 +1,2 @@
+- #### Generative-AI Utilisation
+	- In the creation of content, the use of various Language Model Models (LLMs) may be employed for tasks such as proofreading, editing, summarising, and other related purposes. These LLMs assist in enhancing the clarity and coherence of the content.
