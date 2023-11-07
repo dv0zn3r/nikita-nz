@@ -415,4 +415,6 @@
  :file/name-format :triple-lowbar
  :publishing/all-pages-public? true
  :feature/enable-timetracking? false
- :graph/settings {:journal? true}}
+ :graph/settings {:journal? true}
+ :feature/enable-journals? false
+ :default-home {:page "Main Page"}}

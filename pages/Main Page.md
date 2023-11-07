@@ -1,0 +1,41 @@
+### [[28.07.2023]]
+	- #### [[🛰 Friday News Feed]]
+		- [1] [[🔗 Researchers Poke Holes in Safety Controls of ChatGPT and Other Chatbots]] #news
+		- [2] [[🔗 New Zealand Government strengthens cyber security]]
+		- [3] [[📼 GovTrack.us | H.R. 3831: AI Disclosure Act]] #video
+		- [4] [[🔗 AI is rewriting the rules of $200 billion games industry]] #news
+	- #### [[🧰 Friday Awesome Stuff Feed]]
+		- [1] [[🔗 Datasette | LLM CLI Tool]] #repo
+		- [2] [[🔗 Justopinion | Client for Caselaw Access Project API]] #repo
+		- [3] [[🔗 Harvard Law School | Case Law Access Project]] #database
+		- [4] [[🔗 Australasian Legal Information Institute | Cases and Legislation]] #database
+	- #### [[📚 Friday Awesome Reads Feed]]
+		- [1] [[📝 How Generative Ai Turns Copyright Law on its Head]] #article
+		- [2] [[📝 Complying with the EU AI Act]] #article
+		- [3] [[📝 Invalid Logic, Equivalent Gains: The Bizarreness of Reasoning in Language Model Prompting]] #article
+		- [4] [[📝 To ChatGPT, or not to ChatGPT: That is the question!]] #article
+	- [[Changelog]]
+		- Added [[License]] and [[Disclosures]] pages.
+- ---
+- ### [[21.07.2023]]
+	- #### [[🛰 Friday News Feed]]
+		- [1] [[🔗 Apple's new voice replicator can bypass bank voice authentication, user finds]] #news
+		- [2] [[🔗 The shady world of Brave selling copyrighted data for AI training]] #inquiry
+		- [3] [[🔗 US judge finds flaws in artists' lawsuit against AI companies]] #news
+		- [4] [[🔗 WTO members intensify discussion on e-commerce moratorium]] #news
+	- #### [[🧰 Friday Awesome Stuff Feed]]
+		- [1] [[🔗 Global AI Regulation Tracker]] #tracker
+		- [2] [[🔗 Awesome AI Guidelines]] #repo
+		- [3] [[🔗 Legal Natural Language Processing]] #repo
+		- [4] [[🔗 OECD Emerging AI-related Regulation]] #tracker
+	- #### [[📚 Friday Awesome Reads Feed]]
+		- [1] [[📝 TRIPS and Its Futures]] #article
+		- [2] [[📝 How is ChatGPT's behavior changing over time?]] #article
+		- [3] [[📄 Thematic Session on Regulatory Cooperation Between Members on Intagible Digital Products (Moderator’s Report)]] #document
+		- [4] [[🔗 Regulating Netflix: A cross-national momentum?]] #blog
+- ---
+- ### [[20.07.2023]]
+	- Added a [comment](((64ae18ef-8b6a-4137-a013-e9f60ac5f40a))) to [[Pragmatic Shift: LLMs and Law]]
+- ---
+- ### [[10.07.2023]]
+	- **[[Pragmatic Shift: LLMs and Law]]** #opinion #[[My Publications]]
