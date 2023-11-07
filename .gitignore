@@ -4,6 +4,7 @@ logseq/.recycle
 logseq/version-files
 chatgpt__*.md
 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
