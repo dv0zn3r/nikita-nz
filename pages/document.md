@@ -1,0 +1,1 @@
+- {{query (and (page [[Main Page]]) [[document]])(and (page [[Main Page]]) (and))(page [[Main Page]])}}

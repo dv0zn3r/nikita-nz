@@ -1,0 +1,106 @@
+type:: [[Simple Guide]] 
+published:: [[18.11.2023]]
+author:: [[Nikita Melashchenko]] 
+topic:: [[AI]], [[LLMs]], [[Research Tools]], [[GitHub Repo]] 
+related:: [OpenAI-Assistants-Template](https://github.com/pranavgupta2603/OpenAI-Assistants-Template), [jupyter-openAI-assistant](https://github.com/dv0zn3r/jupyter-openAI-assistant/tree/feature)
+
+- ## Abstract
+	- This guide will walk you through how to use a [[Jupyter]] notebook that leverages OpenAI API to communicate with [[OpenAI Assistant]]s within [[PyCharm]]. This notebook allows you to interact with an AI assistant, which can answer questions, provide explanations, and generate code in accordance with custom instructions and uploaded documents, by sending messages and retrieving a history of a conversation.
+	- This guide was prepared for users such as students, researchers and academics without a technical background. It is intended to be a step-by-step tutorial to implement the [[OpenAI Assistant ]]with track record of the process and the results.
+- ## Prerequisites
+	- Before you start, make sure you have the following:
+		- A computer with an internet connection.
+		- Basic knowledge of how to use a terminal.
+		- Basic knowledge of how to use a [[Jupyter]] ![Jupyter logo](https://avatars.githubusercontent.com/u/7388996?s=200&v=4 ){:height 25, :width 25} notebook. If you're new to [[Jupyter]], you can learn more about it [here](https://jupyter.org/try).
+		- Access to the notebook `OpenAI-Assistant-Template.ipynb` and other files from the [GitHub repository](https://github.com/dv0zn3r/jupyter-openAI-assistant/tree/feature).
+		- [[Python]] installed on your machine. If you don't have [[Python]] ![Python logo](https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png){:height 20, :width 20} installed, you can download it from the [official website](https://www.python.org/downloads/).
+		- [[PyCharm]] ![PyCharm logo](https://resources.jetbrains.com/storage/products/company/brand/logos/PyCharm_icon.png){:height 25, :width 25} installed on your machine. If you don't have [[PyCharm]] installed, you can download it from the [official website](https://www.jetbrains.com/pycharm/download/).
+			- ⚠️ Note: There is a free community version. Also educators and students may request a license to use a professional version free of charge. Thank you [[JetBrains]].  ![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png){:height 25, :width 25}
+- ## Getting Started
+	- ### Step 1: Clone the GitHub Repository
+		- In this step, you will clone the [[GitHub]] repository that contains the [[Jupyter]] notebook and other necessary files for the project. Cloning a repository means making a copy of it on your local machine. This allows you to work on the project locally.
+		- Here are the detailed steps:
+	- 1.  Start by launching [[PyCharm]] on your machine.
+	- 2. In the [[PyCharm]] interface, navigate to the `File` menu at the top left corner. From the dropdown, select `New Project from Version Control`. This option allows you to create a new project in [[PyCharm]] by cloning a repository from a version control system like [[Git]].
+		- 3. In the `Version Control` dropdown, select `Git`. Git is a distributed version control system that lets multiple people work on a project at the same time without overwriting each other's changes.
+	- 4.  In the `URL` field, enter the URL of the [[GitHub]] repository: `https://github.com/dv0zn3r/jupyter-openAI-assistant/tree/feature`.
+		- 5. In the `Directory` field, choose the directory on your local machine where you want to clone the repository. This is where the copy of the project will be stored on your computer.
+	- 6. Click `Clone` to start the cloning process. [[PyCharm]] will then download a copy of the repository to your chosen directory.
+		- After completing these steps, you should have a local copy of the repository on your machine, stored in the directory you specified. You can now navigate to this directory in [[PyCharm]] and start working on the project. The [[Jupyter]] notebook and other files from the repository should be visible in the [[PyCharm]] project explorer.
+	- ### Step 2: Set up a virtual environment
+		- In this step, you will set up a virtual environment for the project. A virtual environment is a self-contained [[Python]] environment that allows you to install packages without affecting the rest of your system. This is useful because it allows you to install packages for a specific project without worrying about conflicts with other projects or your system's [[Python]] installation.
+		- Here are the detailed steps:
+			- 1. Navigate to the `modules.py` file in the [[PyCharm]] project explorer. This file should be in the root directory of the project.
+			- 2. You should see the message `No Python interpreter configured for the project`. This is a reminder that you need to set up a virtual environment for the project.
+			- 3. Click on the message to open the `Add Python Interpreter` window. This window allows you to create a new virtual environment for the project.
+			- 4. In the `Add Python Interpreter` window, click on the `New environment using` dropdown and select `Virtualenv`. This will create a new virtual environment for the project.
+			- 5. Choose version of [[Python]] to use for the virtual environment. You can choose any version of [[Python]] that is installed on your machine.
+			- 6. Click `OK` to create the virtual environment. [[PyCharm]] will then create a new virtual environment for the project.
+		- After completing these steps, you should have a virtual environment set up for the project. You can now install packages in this virtual environment without affecting the rest of your system.
+	- ### Step 3: Install the Required Packages
+		- In this step, you will install the required [[Python]] packages for the project. These packages are listed in the `requirements.txt` file in the repository. You can install them using the `pip` command through the terminal, or you can use [[PyCharm]] to install them automatically.
+		- Here are the detailed steps:
+			- 1. Navigate to the `requirements.txt` file in the [[PyCharm]] project explorer. This file should be in the root directory of the project.
+			- 2. At the top of the file, you should see a message that says `Install the required packages by running: pip install -r requirements.txt`. This is a reminder that you need to install the packages before you can run the project.
+			- 3. Click on the message to open the `Install requirements` window. This window allows you to install the required packages for the project.
+			- 4. Navigate to `OpenAI-Assistant-Template.ipynb` file in the [[PyCharm]] project explorer. This file should be in the root directory of the project.
+			- 5. Check whether there is a message `Jupyter is not installed`. If so, click on the message to install [[Jupyter]].
+		- After completing these steps, you should have all the required packages installed on your machine. Now you have all the tools you need to run the project.
+	- ### Step 4: Set up an OpenAI Assistant
+		- In this step, you will set up an [[OpenAI Assistant]] for the project. An [[OpenAI Assistant]] is an AI-powered chatbot that can answer questions, provide explanations, and generate code.
+		- Here are the detailed steps:
+			- 1. Navigate to openai website and create an account.
+			- 2. Navigate to `Assistants` tab on the left.
+			- 3. Click on `Create` button.
+			- 4. Enter the name of the assistant.
+			- 5. Enter the instructions for the assistant.
+			- 6. Choose the model for the assistant.
+			- 7. Toggle on `Code Interpreter` and/or `Retrieval` if you want to use these features.
+			- 8. Upload files for the assistant if you want the assistant to use contents of the file for code interpretation and/or retrieval.
+			- 9. Click on `Save` button.
+			- 10. Note the `id` of the assistant somewhere. You will need it later.
+		- After completing these steps, you should have an [[OpenAI Assistant]] set up for the project. You can now use the assistant to answer questions, provide explanations, and generate code. For now only via web interface.
+	- ### Step 5: Set up an OpenAI API key
+		- In this step, you will set up an [[OpenAI API]] key for the project. An [[OpenAI API]] key is a unique identifier that allows you to access the [[OpenAI API]]. You can use this key to make requests to the API and retrieve responses from the API.
+		- Here are the detailed steps:
+			- 1. Navigate to OpenAI website and login to your account.
+			- 2. Navigate to `API keys` tab on the left.
+			- 3. Click on `Create new secret key` button.
+			- 4. Enter the name of the API key.
+			- 5. Click on `Create secret key` button.
+			- 6. Note the `key` of the API key somewhere. You will need it later. This is the key that you will use to make requests to the [[OpenAI API]]. And you won`t be able to see it again.
+		- After completing these steps, you should have an [[OpenAI API]] key set up for the project. You can now use the key to make requests to the [[OpenAI API]].
+	- ### Step 6: Set up the Environment Variables
+		- In this step, you will set up the environment variables for the project. Environment variables are variables that are set in the environment and can be accessed by programs running in that environment. They are useful for storing sensitive information like API keys and passwords.
+		- Here are the detailed steps:
+			- 1. Navigate to the `example.env` file in the [[PyCharm]] project explorer. This file should be in the root directory of the project.
+			- 2. Rename the file to `.env`. This will make the file visible to the project.
+			- 3. In the `.env` file, you should see the `OPENAI_API_KEY` variable: This is the [[OpenAI API]] key that you set up in the previous step. Replace.
+			- 4. Navigate to the `OpenAI-Assistant-Template.ipynb` file in the [[PyCharm]] project explorer. This file should be in the root directory of the project.
+			- 5. In the `OpenAI-Assistant-Template.ipynb` file, you should see the `assistant_id_to_use` variable: This is the [[OpenAI Assistant] ID that you set up in the previous step. Replace.
+				- ⚠️Note: Make sure `get_premade_assistant` is set to `True`. Otherwise, the notebook will set up an assistant for you. In such a case, you will need to set up the model in `modules.py` file and provide name, description, instructions, and tools in `OpenAI-Assistant-Template.ipynb`.
+			- 6. _Optional:_ If you have previously used an [[OpenAI Assistant] and have a thread `id` you want to continue, you can replace the `thread_id_to_use` variable with the `id` of the thread you want to continue.
+				- ⚠️Note: Make sure `start_new_thread` is set to `False`. Otherwise, the notebook will start a new thread for you.
+			- 7. Change the `content` variable and input the message that you want to send to the assistant.
+				- ⚠️Note: You don't have to send the message to the assistant. If you just want to retrieve the history of the conversation, just skip this cell and run the next one.
+		- After completing these steps, you should have the environment variables set up for the project. You can now use these variables to access the [[OpenAI API]] and the [[OpenAI Assistant].
+	- ### Step 7: Run the Notebook
+		- In this step, you will run the notebook to interact with the [[OpenAI Assistant]. The notebook allows you to send messages to the assistant and retrieve the assistant's responses. You can use this to have a conversation with the assistant, or just to retrieve the assistant's responses for archival purposes.
+		- Here are the detailed steps:
+			- 1. Navigate to the `OpenAI-Assistant-Template.ipynb` file in the [[PyCharm]] project explorer. This file should be in the root directory of the project.
+			- 2. _Option 1:_ Run the notebook by clicking on the `Run all cells` button at the top of the notebook. This will run all the cells in the notebook. This means that the notebook will send your message to the assistant and retrieve the assistant's response.
+			- 3. _Option 2:_ Run each cell separately by clicking `Run celected cell and go to cell below` button excluding the one that sends the message to the assistant. This will allow you to retrieve the assistant's response without sending a message to the assistant.
+			- 4. After running the notebook, you should see the assistant's response displayed in the notebook.
+				- ⚠️ Note: You need to run the cells with the initial setup only once. After that you can run the cells with the message and the cells that retrieve the assistant's response as many times as you want.
+			- 5. You can continue the conversation with the assistant by repeating steps 2 and 3. Each time you run the cells, you'll see the assistant's response.
+- ## Final notes
+	- Repo `jupyter-OpenAI-assistant` is the fork of repo `OpenAI-Assistant-Template`. It was adapted to avoid truncation of the retrieved conversation with the assistant.
+	- Repo `jupyter-OpenAI-assistant` may encounter an issue with import of `Ipython` due to `frozen modules` issue. Running [[Python]] with the `-Xfrozen_modules=off` flag resolves the import issues. To do this, navigate to terminal in [[PyCharm]] in the down left corner and run:
+	- ```bash
+	  python -Xfrozen_modules=off -m ipykernel_launcher
+	  ```
+- ## Conclusion
+	- That's it! You now know how to use the [[OpenAI Assistant]] in a [[Jupyter]] notebook within [[PyCharm]]. This tool can be a great way to get and track answers to questions and generate code, which makes it a valuable research tool.
+- ## Also see
+	- [[My Research Workflow with OpenAI Assistants]]
+	- [[Using the OpenAI Assistant as a Telegram Bot]]

@@ -1,2 +1,5 @@
-- [[🔗 News Article]]
+- [[🗞 News Article]]
+- [[📝 Journal Article]]
+- [[🔗 GitHub Repo]]
+- [[⚠️ Warning: Page In-Progress]]
 -

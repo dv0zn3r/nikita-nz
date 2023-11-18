@@ -1,4 +1,26 @@
-### [[28.07.2023]]
+### [[18.11.2023]]
+	- **[[Using the OpenAI Assistant in a Jupyter Notebook with PyCharm]]** #[[My Publications]] #[[Simple Guide]]
+- ---
+- ### [[17.11.2023]]
+	- #### [[🛰 Friday News Feed
+		- [1] [[🗞 OpenAI’s Board Pushes Out Sam Altman, Its High-Profile C.E.O.]] #news
+		- [2] [[🗞 Vanderbilt Law School announces creation of AI Legal Lab]] #news
+		- [3] [[🗞 It's time to admit 'we're in an AI bubble']] #news
+	- #### [[🧰 Friday Awesome Stuff Feed]]
+		- [1] [[🔗 OpenAI Assistant for Jupyter]] #[[GitHub Repo]]
+		- [2] [[🔗 OpenAI powered Telegram Bot]] #[[GitHub Repo]]
+		- [3] [[🔗 Open Australian Legal Corpus]] #[[dataset]]
+	- #### [[📚 Friday Awesome Reads Feed]]
+		- [1] [[📝 Encoding the Enforcement of Safety Standards into Smart Robots to Harness Their Computing Sophistication and Collaborative Potential: A Legal Risk Assessment for European Union Policymakers]] #[[article]]
+		- [2] [[📝 Auditing of AI: Legal, Ethical and Technical Approaches]] #[[article]]
+- ---
+- ### [[07.11.2023]]
+	- [[Changelog]]
+		- Disabled the [[Journal feature]]
+		- Set up a new [[home page]]
+		- Disabled the bottom bar on [[mobile version]]
+- ---
+- ### [[28.07.2023]]
 	- #### [[🛰 Friday News Feed]]
 		- [1] [[🔗 Researchers Poke Holes in Safety Controls of ChatGPT and Other Chatbots]] #news
 		- [2] [[🔗 New Zealand Government strengthens cyber security]]

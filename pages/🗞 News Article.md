@@ -3,6 +3,6 @@ source:: [[]]
 date:: [[]]
 topic:: [[]]
 url:: [link]()
-template:: 🔗 News Article
+template:: 🗞 News Article
 
 -
