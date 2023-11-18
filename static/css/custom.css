@@ -4,8 +4,13 @@
   --ls-font-family: 'PT Serif', serif;
   --sans: 'PT Sans', sans-serif;
   --ct-code-font-family: 'PT Mono', monospace;
+  --ct-code-font-size: 12px;
   --ls-page-title-size: 36px;
 	font-size: 18px
+}
+
+:not(pre)>code {
+    font-size: 0.8em;
 }
 
 .journal-title .title, .ls-page-title {
